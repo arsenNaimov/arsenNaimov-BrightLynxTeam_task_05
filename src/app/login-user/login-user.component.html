@@ -1,0 +1,18 @@
+
+  <div class="form-login">
+    <label for="name">Имя:</label>
+    <input class="form-login" name="name" placeholder="Имя" [(ngModel)]="name"/><br><br>
+  </div>
+  <div class="form-login">
+    <label for="password">Пароль:</label>
+    <input class="form-login" name="password" placeholder="Пароль" [(ngModel)]="password"/><br><br>
+  </div>
+    <input type="radio" name="savePassword" id="savePassword"/>
+    <label for="savePassword">Запомнить пароль</label><br>
+    <button (click)="valid()">Войти</button><br>
+    <button routerLink="registration">Зарегистрироваться</button>
+
+  
+
+
+

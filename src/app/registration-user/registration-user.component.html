@@ -1,0 +1,31 @@
+<div class="form-registration">
+  <label for="name">Имя:</label>
+  <input class="form-registration" name="name" placeholder="Имя" [(ngModel)]="user.name" /><br><br>
+</div>
+<div class="form-registration">
+  <label for="surname">Фамилия:</label>
+  <input class="form-registration" name="surname" placeholder="Фамилия" [(ngModel)]="user.surname" /><br><br>
+</div>
+<div class="form-registration">
+  <label for="nickName">Логин:</label>
+  <input class="form-registration" name="nickName" placeholder="Логин" [(ngModel)]="user.nickName" /><br><br>
+</div>
+<div class="form-registration">
+  <label for="age">Возраст:</label>
+  <input class="form-registration" name="age" placeholder="Ваш возраст" [(ngModel)]="user.age" /><br><br>
+</div>
+<div class="form-registration">
+  <label for="citizenship">Гражданство:</label>
+  <input class="form-registration" name="citizenship" placeholder="Ваше гражданство"
+    [(ngModel)]="user.citizenship" /><br><br>
+</div>
+<div class="form-registration">
+  <label for="profession">Профессия:</label>
+  <input class="form-registration" name="profession" placeholder="Ваша профессия" [(ngModel)]="user.profession" /><br><br>
+</div>
+<div class="form-registration">
+  <label for="aboutMyself">Обо мне:</label>
+  <input class="form-registration" name="aboutMyself" placeholder="Расскажите о себе"
+    [(ngModel)]="user.aboutMyself" /><br><br>
+</div>
+<button (click)="submit()">Зарегистрироваться</button>
